@@ -9,6 +9,7 @@ import Foundation
 
 public extension URL {
 
+    ///Allows to initiate URL with optional string.
     init?(string: String?) {
         guard let string = string else {
             return nil
@@ -16,6 +17,14 @@ public extension URL {
         self.init(string: string)
     }
 
+    /**
+     Creates url with added query components.
+
+     - Parameters:
+       - queryComponents: Components to add to the URL.
+
+     - Returns: URL with given components.
+     */
     func appendingQueryComponents(_ queryComponents: [(name: String, value: String)]) -> URL? {
         guard var components = URLComponents(url: self, resolvingAgainstBaseURL: false) else {
             return nil

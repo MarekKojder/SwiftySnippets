@@ -32,7 +32,7 @@ public extension FloatingPoint {
 
      - Parameter digit: Number of decimal places to round.
 
-     - Returns: Returns number rounded to given given number of decimal places.
+     - Returns: Returns number rounded to given number of decimal places.
      */
     func rounded(to digit: UInt) -> Self {
         var multipler = 1

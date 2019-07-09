@@ -15,6 +15,12 @@ public extension Decodable {
         return decoder
     }
 
+    /**
+     Returns an object, decoded from a JSON object.
+
+     - Parameters:
+       - data: The JSON object to decode.
+     */
     static func decode(from data: Data) throws -> Self {
         return try decoder.decode(Self.self, from: data)
     }
@@ -28,6 +34,7 @@ public extension Encodable {
         return encoder
     }
 
+    ///Returns a JSON-encoded representation of the object.
     func encoded() throws -> Data {
         return try encoder.encode(self)
     }

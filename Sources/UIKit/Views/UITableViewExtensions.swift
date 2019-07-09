@@ -16,14 +16,6 @@ open class BaseTableViewCell: UITableViewCell {
     }
 }
 
-public extension BaseTableViewCell {
-
-    ///Hides separator of cell by moving it outside of the screen.
-    func hideSeparator() {
-        separatorInset = UIEdgeInsets(top: 0, left: frame.size.width * 2, bottom: 0, right: 0)
-    }
-}
-
 public extension UITableView {
 
     /**

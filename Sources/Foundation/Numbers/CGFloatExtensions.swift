@@ -9,10 +9,12 @@ import QuartzCore
 
 public extension CGFloat {
 
+    ///Current value in degrees converted to radians.
     var degreesInRadians: CGFloat {
         return .pi * self / 180.0
     }
 
+    ///Current value in radians converted to degrees.
     var radiansInDegrees: CGFloat {
         return 180.0 * self / .pi
     }

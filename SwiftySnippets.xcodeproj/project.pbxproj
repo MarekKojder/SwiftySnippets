@@ -42,7 +42,6 @@
 		EABF0B8422D4803A0042202D /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0B8322D4803A0042202D /* CGFloatExtensions.swift */; };
 		EABF0B8522D4803A0042202D /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0B8322D4803A0042202D /* CGFloatExtensions.swift */; };
 		EABF0B8622D4803A0042202D /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0B8322D4803A0042202D /* CGFloatExtensions.swift */; };
-		EABF0B8722D4803A0042202D /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0B8322D4803A0042202D /* CGFloatExtensions.swift */; };
 		EABF0B8922D480960042202D /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0B8822D480960042202D /* FloatingPointExtensions.swift */; };
 		EABF0B8A22D480960042202D /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0B8822D480960042202D /* FloatingPointExtensions.swift */; };
 		EABF0B8B22D480960042202D /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0B8822D480960042202D /* FloatingPointExtensions.swift */; };
@@ -80,13 +79,11 @@
 		EABF0BB422D487000042202D /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BB022D487000042202D /* URLExtensions.swift */; };
 		EABF0BB722D489080042202D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BB622D489080042202D /* UIViewExtensions.swift */; };
 		EABF0BB822D489080042202D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BB622D489080042202D /* UIViewExtensions.swift */; };
-		EABF0BBA22D489080042202D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BB622D489080042202D /* UIViewExtensions.swift */; };
 		EABF0BBC22D48C450042202D /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BBB22D48C450042202D /* UICollectionViewExtensions.swift */; };
 		EABF0BBD22D48C450042202D /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BBB22D48C450042202D /* UICollectionViewExtensions.swift */; };
-		EABF0BBF22D48C450042202D /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BBB22D48C450042202D /* UICollectionViewExtensions.swift */; };
 		EABF0BC122D48C9C0042202D /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BC022D48C9C0042202D /* UITableViewExtensions.swift */; };
 		EABF0BC222D48C9C0042202D /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BC022D48C9C0042202D /* UITableViewExtensions.swift */; };
-		EABF0BC322D48C9C0042202D /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BC022D48C9C0042202D /* UITableViewExtensions.swift */; };
+		EABF0BC922D4C22C0042202D /* BaseTableViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF0BC822D4C22C0042202D /* BaseTableViewCellExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,6 +195,7 @@
 		EABF0BB622D489080042202D /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		EABF0BBB22D48C450042202D /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
 		EABF0BC022D48C9C0042202D /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		EABF0BC822D4C22C0042202D /* BaseTableViewCellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCellExtensions.swift; sourceTree = "<group>"; };
 		FBAA4505EBDB06395103B642 /* Pods-SwiftAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAPI/Pods-SwiftAPI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -438,17 +436,13 @@
 		EABF0B6D22D473BA0042202D /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				EABF0B7E22D47F550042202D /* NSObjectExtensions.swift */,
-				EABF0B8322D4803A0042202D /* CGFloatExtensions.swift */,
-				EABF0B8822D480960042202D /* FloatingPointExtensions.swift */,
-				EABF0B8D22D4818B0042202D /* TimeIntervalExtensions.swift */,
-				EABF0B9222D481F90042202D /* StringExtensions.swift */,
-				EABF0B9722D482F90042202D /* DateExtensions.swift */,
-				EABF0B9C22D483710042202D /* CodableExtensions.swift */,
-				EABF0BA122D484110042202D /* FailableDecodable.swift */,
+				EABF0BC622D4C12C0042202D /* Numbers */,
+				EABF0BC722D4C1490042202D /* Network */,
 				EABF0BA622D4867C0042202D /* DispatchQueueExtensions.swift */,
+				EABF0B7E22D47F550042202D /* NSObjectExtensions.swift */,
+				EABF0B9722D482F90042202D /* DateExtensions.swift */,
+				EABF0B9222D481F90042202D /* StringExtensions.swift */,
 				EABF0BAB22D486CC0042202D /* ArrayExtensions.swift */,
-				EABF0BB022D487000042202D /* URLExtensions.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -456,11 +450,40 @@
 		EABF0B6E22D473C10042202D /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				EABF0BB622D489080042202D /* UIViewExtensions.swift */,
-				EABF0BC022D48C9C0042202D /* UITableViewExtensions.swift */,
-				EABF0BBB22D48C450042202D /* UICollectionViewExtensions.swift */,
+				EABF0BC422D4C0C70042202D /* Views */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EABF0BC422D4C0C70042202D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EABF0BB622D489080042202D /* UIViewExtensions.swift */,
+				EABF0BC022D48C9C0042202D /* UITableViewExtensions.swift */,
+				EABF0BC822D4C22C0042202D /* BaseTableViewCellExtensions.swift */,
+				EABF0BBB22D48C450042202D /* UICollectionViewExtensions.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EABF0BC622D4C12C0042202D /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				EABF0B8322D4803A0042202D /* CGFloatExtensions.swift */,
+				EABF0B8D22D4818B0042202D /* TimeIntervalExtensions.swift */,
+				EABF0B8822D480960042202D /* FloatingPointExtensions.swift */,
+			);
+			path = Numbers;
+			sourceTree = "<group>";
+		};
+		EABF0BC722D4C1490042202D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EABF0BB022D487000042202D /* URLExtensions.swift */,
+				EABF0B9C22D483710042202D /* CodableExtensions.swift */,
+				EABF0BA122D484110042202D /* FailableDecodable.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1054,18 +1077,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EABF0BAA22D4867C0042202D /* DispatchQueueExtensions.swift in Sources */,
-				EABF0B8722D4803A0042202D /* CGFloatExtensions.swift in Sources */,
 				EABF0B8222D47F550042202D /* NSObjectExtensions.swift in Sources */,
 				EABF0B9622D481F90042202D /* StringExtensions.swift in Sources */,
 				EABF0B8C22D480960042202D /* FloatingPointExtensions.swift in Sources */,
 				EABF0BAF22D486CC0042202D /* ArrayExtensions.swift in Sources */,
 				EABF0B9122D4818B0042202D /* TimeIntervalExtensions.swift in Sources */,
-				EABF0BC322D48C9C0042202D /* UITableViewExtensions.swift in Sources */,
 				EABF0BA522D484110042202D /* FailableDecodable.swift in Sources */,
-				EABF0BBF22D48C450042202D /* UICollectionViewExtensions.swift in Sources */,
 				EABF0BB422D487000042202D /* URLExtensions.swift in Sources */,
 				EABF0B9B22D482F90042202D /* DateExtensions.swift in Sources */,
-				EABF0BBA22D489080042202D /* UIViewExtensions.swift in Sources */,
 				EABF0BA022D483710042202D /* CodableExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1086,6 +1105,7 @@
 				EABF0BBC22D48C450042202D /* UICollectionViewExtensions.swift in Sources */,
 				EABF0BB122D487000042202D /* URLExtensions.swift in Sources */,
 				EABF0B9822D482F90042202D /* DateExtensions.swift in Sources */,
+				EABF0BC922D4C22C0042202D /* BaseTableViewCellExtensions.swift in Sources */,
 				EABF0BB722D489080042202D /* UIViewExtensions.swift in Sources */,
 				EABF0B9D22D483710042202D /* CodableExtensions.swift in Sources */,
 			);

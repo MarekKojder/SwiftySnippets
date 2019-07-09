@@ -1,0 +1,6 @@
+framework module Pods_SwiftySnippets_tvOS {
+  umbrella header "Pods-SwiftySnippets tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

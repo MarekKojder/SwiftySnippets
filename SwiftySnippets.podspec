@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "SwiftySnippets"
-  s.version      = "1.0.0"
-  s.summary      = "Useful snippets written in Swift."
-  s.description  = "SwiftySnippets is a set of ready to use, very useful extensions written in Swift."
-  s.homepage     = "https://github.com/MarekKojder/SwiftySnippets"
+  s.name         = 'SwiftySnippets'
+  s.version      = '1.0.0'
+  s.summary      = 'Useful snippets written in Swift.'
+  s.description  = 'SwiftySnippets is a set of ready to use, very useful extensions written in Swift.'
+  s.homepage     = 'https://github.com/MarekKojder/SwiftySnippets'
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license = { :type => "MIT", :file => "LICENSE" }
+  s.license = { :type => 'MIT', :file => 'LICENSE' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author = "Marek Kojder"
+  s.author = 'Marek Kojder'
  
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -48,10 +48,10 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.ios.deployment_target = "9.0"
-  s.osx.deployment_target = "10.10"
-  s.tvos.deployment_target = "9.0"
-  s.watchos.deployment_target = "3.0"
+  s.ios.deployment_target = '9.0'
+  s.osx.deployment_target = '10.10'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '3.0'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :git => "https://github.com/MarekKojder/SwiftySnippets.git", :branch => "master", :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/MarekKojder/SwiftySnippets.git', :branch => 'master', :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = "Sources/**/*.{h,swift}"
+  s.source_files = 'Sources/**/*.{h,swift}'
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +80,10 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.frameworks = "Foundation"
+  s.framework      = 'Foundation'
+  s.framework      = 'QuartzCore'
+  s.ios.framework  = 'UIKit'
+  # s.osx.framework  = 'AppKit'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,6 +93,6 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
   s.requires_arc = true
-  s.swift_version = "5.0"
+  s.swift_version = '5.0'
 
 end

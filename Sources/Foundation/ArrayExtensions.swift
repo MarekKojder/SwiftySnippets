@@ -29,7 +29,7 @@ public extension Array where Iterator.Element: Equatable {
 
      - Returns: Array without duplicates.
      */
-    internal func filterDuplicates(_ merge: MergingHandler, else modify: ModifyingHandler? = nil) -> [Element] {
+    func filterDuplicates(_ merge: MergingHandler, else modify: ModifyingHandler? = nil) -> [Element] {
         var results = [Element]()
         forEach { element in
             if let index = results.firstIndex(where: { element == $0 }) {

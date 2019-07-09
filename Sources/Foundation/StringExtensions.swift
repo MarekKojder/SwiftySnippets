@@ -3,7 +3,6 @@
 //  SwiftySnippets
 //
 //  Created by Marek Kojder on 09/07/2019.
-//  Copyright © 2019 XSolve. All rights reserved.
 //
 
 import UIKit

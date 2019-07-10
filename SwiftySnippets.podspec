@@ -81,9 +81,14 @@ Pod::Spec.new do |s|
   #
 
   s.framework      = "Foundation"
-  s.framework      = "QuartzCore"
+
+  s.ios.framework  = "QuartzCore"
+  s.tvos.framework = "QuartzCore"
+  s.osx.framework  = "QuartzCore"
+
   s.ios.framework  = "UIKit"
-  s.tvos.framework  = "UIKit"
+  s.tvos.framework = "UIKit"
+
   # s.osx.framework  = "AppKit"
 
 

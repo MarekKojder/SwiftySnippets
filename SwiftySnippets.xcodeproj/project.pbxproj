@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,14 +15,63 @@
 		AA76606DB41E24B6DF95C512 /* Pods_UnitTests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D73C6B42458205A37846403 /* Pods_UnitTests_OSX.framework */; };
 		B95FFD601DB4E45585809825 /* Pods_SwiftySnippets_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26325681C7F2712F8A340A28 /* Pods_SwiftySnippets_tvOS.framework */; };
 		CBE77B6E51C260E0D8415609 /* Pods_UnitTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32619A3B804A1A4A9E8CD8CC /* Pods_UnitTests_iOS.framework */; };
-		EA3B4E262163A16E00BC730D /* SwiftySnippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA0E1B51E5D9B8900A7AA3A /* SwiftySnippets.framework */; };
-		EA3B4E4C2163A2D300BC730D /* SwiftySnippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA0E1B51E5D9B8900A7AA3A /* SwiftySnippets.framework */; };
+		EA6D8D9922D5968800A2A1EC /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8622D5968800A2A1EC /* ArrayExtensions.swift */; };
+		EA6D8D9A22D5968800A2A1EC /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8622D5968800A2A1EC /* ArrayExtensions.swift */; };
+		EA6D8D9B22D5968800A2A1EC /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8622D5968800A2A1EC /* ArrayExtensions.swift */; };
+		EA6D8D9C22D5968800A2A1EC /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8622D5968800A2A1EC /* ArrayExtensions.swift */; };
+		EA6D8D9D22D5968800A2A1EC /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8822D5968800A2A1EC /* CGFloatExtensions.swift */; };
+		EA6D8D9E22D5968800A2A1EC /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8822D5968800A2A1EC /* CGFloatExtensions.swift */; };
+		EA6D8D9F22D5968800A2A1EC /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8822D5968800A2A1EC /* CGFloatExtensions.swift */; };
+		EA6D8DA122D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8922D5968800A2A1EC /* TimeIntervalExtensions.swift */; };
+		EA6D8DA222D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8922D5968800A2A1EC /* TimeIntervalExtensions.swift */; };
+		EA6D8DA322D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8922D5968800A2A1EC /* TimeIntervalExtensions.swift */; };
+		EA6D8DA422D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8922D5968800A2A1EC /* TimeIntervalExtensions.swift */; };
+		EA6D8DA522D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8A22D5968800A2A1EC /* FloatingPointExtensions.swift */; };
+		EA6D8DA622D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8A22D5968800A2A1EC /* FloatingPointExtensions.swift */; };
+		EA6D8DA722D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8A22D5968800A2A1EC /* FloatingPointExtensions.swift */; };
+		EA6D8DA822D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8A22D5968800A2A1EC /* FloatingPointExtensions.swift */; };
+		EA6D8DA922D5968800A2A1EC /* CodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8C22D5968800A2A1EC /* CodableExtensions.swift */; };
+		EA6D8DAA22D5968800A2A1EC /* CodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8C22D5968800A2A1EC /* CodableExtensions.swift */; };
+		EA6D8DAB22D5968800A2A1EC /* CodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8C22D5968800A2A1EC /* CodableExtensions.swift */; };
+		EA6D8DAC22D5968800A2A1EC /* CodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8C22D5968800A2A1EC /* CodableExtensions.swift */; };
+		EA6D8DAD22D5968800A2A1EC /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8D22D5968800A2A1EC /* URLExtensions.swift */; };
+		EA6D8DAE22D5968800A2A1EC /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8D22D5968800A2A1EC /* URLExtensions.swift */; };
+		EA6D8DAF22D5968800A2A1EC /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8D22D5968800A2A1EC /* URLExtensions.swift */; };
+		EA6D8DB022D5968800A2A1EC /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8D22D5968800A2A1EC /* URLExtensions.swift */; };
+		EA6D8DB122D5968800A2A1EC /* FailableDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8E22D5968800A2A1EC /* FailableDecodable.swift */; };
+		EA6D8DB222D5968800A2A1EC /* FailableDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8E22D5968800A2A1EC /* FailableDecodable.swift */; };
+		EA6D8DB322D5968800A2A1EC /* FailableDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8E22D5968800A2A1EC /* FailableDecodable.swift */; };
+		EA6D8DB422D5968800A2A1EC /* FailableDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8E22D5968800A2A1EC /* FailableDecodable.swift */; };
+		EA6D8DB522D5968800A2A1EC /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8F22D5968800A2A1EC /* StringExtensions.swift */; };
+		EA6D8DB622D5968800A2A1EC /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8F22D5968800A2A1EC /* StringExtensions.swift */; };
+		EA6D8DB822D5968800A2A1EC /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8F22D5968800A2A1EC /* StringExtensions.swift */; };
+		EA6D8DB922D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9022D5968800A2A1EC /* DispatchQueueExtensions.swift */; };
+		EA6D8DBA22D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9022D5968800A2A1EC /* DispatchQueueExtensions.swift */; };
+		EA6D8DBB22D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9022D5968800A2A1EC /* DispatchQueueExtensions.swift */; };
+		EA6D8DBC22D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9022D5968800A2A1EC /* DispatchQueueExtensions.swift */; };
+		EA6D8DBD22D5968800A2A1EC /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9122D5968800A2A1EC /* DateExtensions.swift */; };
+		EA6D8DBE22D5968800A2A1EC /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9122D5968800A2A1EC /* DateExtensions.swift */; };
+		EA6D8DBF22D5968800A2A1EC /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9122D5968800A2A1EC /* DateExtensions.swift */; };
+		EA6D8DC022D5968800A2A1EC /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9122D5968800A2A1EC /* DateExtensions.swift */; };
+		EA6D8DC122D5968800A2A1EC /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9222D5968800A2A1EC /* NSObjectExtensions.swift */; };
+		EA6D8DC222D5968800A2A1EC /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9222D5968800A2A1EC /* NSObjectExtensions.swift */; };
+		EA6D8DC322D5968800A2A1EC /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9222D5968800A2A1EC /* NSObjectExtensions.swift */; };
+		EA6D8DC422D5968800A2A1EC /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9222D5968800A2A1EC /* NSObjectExtensions.swift */; };
+		EA6D8DC522D5968800A2A1EC /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9522D5968800A2A1EC /* UITableViewExtensions.swift */; };
+		EA6D8DC622D5968800A2A1EC /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9522D5968800A2A1EC /* UITableViewExtensions.swift */; };
+		EA6D8DC922D5968800A2A1EC /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */; };
+		EA6D8DCA22D5968800A2A1EC /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */; };
+		EA6D8DCD22D5968800A2A1EC /* BaseTableViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9722D5968800A2A1EC /* BaseTableViewCellExtensions.swift */; };
+		EA6D8DD122D5968800A2A1EC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */; };
+		EA6D8DD222D5968800A2A1EC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */; };
+		EA6D8DD522D59AF300A2A1EC /* SwiftySnippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA0E1B51E5D9B8900A7AA3A /* SwiftySnippets.framework */; };
+		EA6D8DD622D59AF800A2A1EC /* SwiftySnippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA0E1A81E5D9B6B00A7AA3A /* SwiftySnippets.framework */; };
+		EA6D8DD722D59B0000A2A1EC /* SwiftySnippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA0E19B1E5D9B0700A7AA3A /* SwiftySnippets.framework */; };
+		EA6D8DD822D59B0400A2A1EC /* SwiftySnippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA0E18E1E5D9A7400A7AA3A /* SwiftySnippets.framework */; };
 		EA8A7FDD1FB18ACB00088163 /* SwiftySnippets.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A7F341FB18ACB00088163 /* SwiftySnippets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA8A7FDE1FB18ACB00088163 /* SwiftySnippets.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A7F341FB18ACB00088163 /* SwiftySnippets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA8A7FDF1FB18ACB00088163 /* SwiftySnippets.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A7F341FB18ACB00088163 /* SwiftySnippets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA8A7FE01FB18ACB00088163 /* SwiftySnippets.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A7F341FB18ACB00088163 /* SwiftySnippets.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA93FE341E5EC42A00A82381 /* SwiftySnippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA0E1B51E5D9B8900A7AA3A /* SwiftySnippets.framework */; };
-		EA93FEA81E5EC87500A82381 /* SwiftySnippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA0E1B51E5D9B8900A7AA3A /* SwiftySnippets.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +148,21 @@
 		EA3B4E2D2163A16E00BC730D /* FunctionalTests OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FunctionalTests OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B4E512163A2D300BC730D /* UnitTests OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTests OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA66932C22CDD9C300031AD9 /* redeploy.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = redeploy.sh; path = Scripts/redeploy.sh; sourceTree = "<group>"; };
+		EA6D8D8622D5968800A2A1EC /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D8822D5968800A2A1EC /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D8922D5968800A2A1EC /* TimeIntervalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D8A22D5968800A2A1EC /* FloatingPointExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPointExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D8C22D5968800A2A1EC /* CodableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D8D22D5968800A2A1EC /* URLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D8E22D5968800A2A1EC /* FailableDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailableDecodable.swift; sourceTree = "<group>"; };
+		EA6D8D8F22D5968800A2A1EC /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D9022D5968800A2A1EC /* DispatchQueueExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D9122D5968800A2A1EC /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D9222D5968800A2A1EC /* NSObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D9522D5968800A2A1EC /* UITableViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D9722D5968800A2A1EC /* BaseTableViewCellExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCellExtensions.swift; sourceTree = "<group>"; };
+		EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		EA8A7F301FB18ACB00088163 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		EA8A7F311FB18ACB00088163 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		EA8A7F321FB18ACB00088163 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
@@ -123,7 +187,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3B4E262163A16E00BC730D /* SwiftySnippets.framework in Frameworks */,
 				2277B21502F78A604AEA7186 /* Pods_FunctionalTests_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +195,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3B4E4C2163A2D300BC730D /* SwiftySnippets.framework in Frameworks */,
 				AA76606DB41E24B6DF95C512 /* Pods_UnitTests_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +203,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA93FE341E5EC42A00A82381 /* SwiftySnippets.framework in Frameworks */,
 				CBE77B6E51C260E0D8415609 /* Pods_UnitTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +211,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA93FEA81E5EC87500A82381 /* SwiftySnippets.framework in Frameworks */,
 				23B5ECA09C039B2AEE214553 /* Pods_FunctionalTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +219,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6D8DD822D59B0400A2A1EC /* SwiftySnippets.framework in Frameworks */,
 				0D427FD60B3D3964740DA48A /* Pods_SwiftySnippets_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6D8DD722D59B0000A2A1EC /* SwiftySnippets.framework in Frameworks */,
 				B95FFD601DB4E45585809825 /* Pods_SwiftySnippets_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6D8DD622D59AF800A2A1EC /* SwiftySnippets.framework in Frameworks */,
 				353AF4426FEEF4ADDD4A6A0A /* Pods_SwiftySnippets_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +246,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6D8DD522D59AF300A2A1EC /* SwiftySnippets.framework in Frameworks */,
 				7129234DDEC01337A84B2FE9 /* Pods_SwiftySnippets_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,11 +342,64 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		EA6D8D8522D5968800A2A1EC /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EA6D8D8722D5968800A2A1EC /* Numbers */,
+				EA6D8D8B22D5968800A2A1EC /* Network */,
+				EA6D8D9022D5968800A2A1EC /* DispatchQueueExtensions.swift */,
+				EA6D8D9222D5968800A2A1EC /* NSObjectExtensions.swift */,
+				EA6D8D8F22D5968800A2A1EC /* StringExtensions.swift */,
+				EA6D8D9122D5968800A2A1EC /* DateExtensions.swift */,
+				EA6D8D8622D5968800A2A1EC /* ArrayExtensions.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		EA6D8D8722D5968800A2A1EC /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				EA6D8D8A22D5968800A2A1EC /* FloatingPointExtensions.swift */,
+				EA6D8D8922D5968800A2A1EC /* TimeIntervalExtensions.swift */,
+				EA6D8D8822D5968800A2A1EC /* CGFloatExtensions.swift */,
+			);
+			path = Numbers;
+			sourceTree = "<group>";
+		};
+		EA6D8D8B22D5968800A2A1EC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EA6D8D8D22D5968800A2A1EC /* URLExtensions.swift */,
+				EA6D8D8C22D5968800A2A1EC /* CodableExtensions.swift */,
+				EA6D8D8E22D5968800A2A1EC /* FailableDecodable.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EA6D8D9322D5968800A2A1EC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA6D8D9422D5968800A2A1EC /* Views */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EA6D8D9422D5968800A2A1EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */,
+				EA6D8D9522D5968800A2A1EC /* UITableViewExtensions.swift */,
+				EA6D8D9722D5968800A2A1EC /* BaseTableViewCellExtensions.swift */,
+				EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EA8A7EF91FB18ACB00088163 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				EABF0B6E22D473C10042202D /* UIKit */,
-				EABF0B6D22D473BA0042202D /* Foundation */,
+				EA6D8D9322D5968800A2A1EC /* UIKit */,
+				EA6D8D8522D5968800A2A1EC /* Foundation */,
 				EA8A7F2F1FB18ACB00088163 /* SupportingFiles */,
 			);
 			path = Sources;
@@ -345,20 +462,6 @@
 				EA66932C22CDD9C300031AD9 /* redeploy.sh */,
 			);
 			name = Metadata;
-			sourceTree = "<group>";
-		};
-		EABF0B6D22D473BA0042202D /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		EABF0B6E22D473C10042202D /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -559,7 +662,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = XSolve;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					EA3B4E1C2163A16E00BC730D = {
 						DevelopmentTeam = B4QB84STNF;
@@ -606,7 +709,7 @@
 				};
 			};
 			buildConfigurationList = EA06580B1E03EBF000B46CEA /* Build configuration list for PBXProject "SwiftySnippets" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -901,6 +1004,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6D8DBB22D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */,
+				EA6D8DBF22D5968800A2A1EC /* DateExtensions.swift in Sources */,
+				EA6D8DC322D5968800A2A1EC /* NSObjectExtensions.swift in Sources */,
+				EA6D8D9F22D5968800A2A1EC /* CGFloatExtensions.swift in Sources */,
+				EA6D8DAF22D5968800A2A1EC /* URLExtensions.swift in Sources */,
+				EA6D8DA322D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */,
+				EA6D8DAB22D5968800A2A1EC /* CodableExtensions.swift in Sources */,
+				EA6D8DB322D5968800A2A1EC /* FailableDecodable.swift in Sources */,
+				EA6D8DA722D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */,
+				EA6D8D9B22D5968800A2A1EC /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -908,6 +1021,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6D8DBA22D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */,
+				EA6D8DD222D5968800A2A1EC /* UIViewExtensions.swift in Sources */,
+				EA6D8DBE22D5968800A2A1EC /* DateExtensions.swift in Sources */,
+				EA6D8DC222D5968800A2A1EC /* NSObjectExtensions.swift in Sources */,
+				EA6D8DC622D5968800A2A1EC /* UITableViewExtensions.swift in Sources */,
+				EA6D8DB622D5968800A2A1EC /* StringExtensions.swift in Sources */,
+				EA6D8D9E22D5968800A2A1EC /* CGFloatExtensions.swift in Sources */,
+				EA6D8DAE22D5968800A2A1EC /* URLExtensions.swift in Sources */,
+				EA6D8DA222D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */,
+				EA6D8DCA22D5968800A2A1EC /* UICollectionViewExtensions.swift in Sources */,
+				EA6D8DAA22D5968800A2A1EC /* CodableExtensions.swift in Sources */,
+				EA6D8DB222D5968800A2A1EC /* FailableDecodable.swift in Sources */,
+				EA6D8DA622D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */,
+				EA6D8D9A22D5968800A2A1EC /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,6 +1042,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6D8DBC22D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */,
+				EA6D8DC022D5968800A2A1EC /* DateExtensions.swift in Sources */,
+				EA6D8DC422D5968800A2A1EC /* NSObjectExtensions.swift in Sources */,
+				EA6D8DB822D5968800A2A1EC /* StringExtensions.swift in Sources */,
+				EA6D8DB022D5968800A2A1EC /* URLExtensions.swift in Sources */,
+				EA6D8DA422D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */,
+				EA6D8DAC22D5968800A2A1EC /* CodableExtensions.swift in Sources */,
+				EA6D8DB422D5968800A2A1EC /* FailableDecodable.swift in Sources */,
+				EA6D8DA822D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */,
+				EA6D8D9C22D5968800A2A1EC /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -922,6 +1059,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6D8DB922D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */,
+				EA6D8DD122D5968800A2A1EC /* UIViewExtensions.swift in Sources */,
+				EA6D8DBD22D5968800A2A1EC /* DateExtensions.swift in Sources */,
+				EA6D8DC122D5968800A2A1EC /* NSObjectExtensions.swift in Sources */,
+				EA6D8DC522D5968800A2A1EC /* UITableViewExtensions.swift in Sources */,
+				EA6D8DB522D5968800A2A1EC /* StringExtensions.swift in Sources */,
+				EA6D8D9D22D5968800A2A1EC /* CGFloatExtensions.swift in Sources */,
+				EA6D8DCD22D5968800A2A1EC /* BaseTableViewCellExtensions.swift in Sources */,
+				EA6D8DAD22D5968800A2A1EC /* URLExtensions.swift in Sources */,
+				EA6D8DA122D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */,
+				EA6D8DC922D5968800A2A1EC /* UICollectionViewExtensions.swift in Sources */,
+				EA6D8DA922D5968800A2A1EC /* CodableExtensions.swift in Sources */,
+				EA6D8DB122D5968800A2A1EC /* FailableDecodable.swift in Sources */,
+				EA6D8DA522D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */,
+				EA6D8D9922D5968800A2A1EC /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -988,6 +1140,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1051,6 +1204,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1062,7 +1216,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1074,10 +1229,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD6A45EC1EEBB3796867FFCD /* Pods-FunctionalTests OSX.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B4QB84STNF;
 				INFOPLIST_FILE = Tests/Functional/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.FunctionalTests-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1090,10 +1250,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E45D97B87B0AEC8A9F48CEB /* Pods-FunctionalTests OSX.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B4QB84STNF;
 				INFOPLIST_FILE = Tests/Functional/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.FunctionalTests-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1106,10 +1271,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5A11F64E790C2B6F82217C0 /* Pods-UnitTests OSX.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B4QB84STNF;
 				INFOPLIST_FILE = Tests/Unit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.UnitTests-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1121,10 +1291,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E51D4D3A1E3544D202F3369A /* Pods-UnitTests OSX.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B4QB84STNF;
 				INFOPLIST_FILE = Tests/Unit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.UnitTests-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1136,10 +1311,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CB9EA93F37B544D9B6032F5 /* Pods-UnitTests iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B4QB84STNF;
 				INFOPLIST_FILE = Tests/Unit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.UnitTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1150,10 +1330,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0C33CC870FD896CCFBF2D0A /* Pods-UnitTests iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B4QB84STNF;
 				INFOPLIST_FILE = Tests/Unit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.UnitTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1164,10 +1349,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07F582B44F62E32D6812C3DB /* Pods-FunctionalTests iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B4QB84STNF;
 				INFOPLIST_FILE = Tests/Functional/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.FunctionalTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1178,10 +1368,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9207A7E565C847855757E0D /* Pods-FunctionalTests iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B4QB84STNF;
 				INFOPLIST_FILE = Tests/Functional/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.FunctionalTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1204,7 +1399,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Sources/SupportingFiles/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.SwiftySnippets-macOS";
 				PRODUCT_NAME = SwiftySnippets;
@@ -1231,7 +1430,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Sources/SupportingFiles/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.SwiftySnippets-macOS";
 				PRODUCT_NAME = SwiftySnippets;
@@ -1253,9 +1456,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_SOURCE_FILE_NAMES = "";
 				INFOPLIST_FILE = "Sources/SupportingFiles/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.SwiftySnippets-tvOS";
 				PRODUCT_NAME = SwiftySnippets;
 				SDKROOT = appletvos;
@@ -1279,9 +1487,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_SOURCE_FILE_NAMES = "";
 				INFOPLIST_FILE = "Sources/SupportingFiles/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.SwiftySnippets-tvOS";
 				PRODUCT_NAME = SwiftySnippets;
 				SDKROOT = appletvos;
@@ -1306,7 +1519,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Sources/SupportingFiles/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.SwiftySnippets-watchOS";
 				PRODUCT_NAME = SwiftySnippets;
 				SDKROOT = watchos;
@@ -1332,7 +1549,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Sources/SupportingFiles/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.SwiftySnippets-watchOS";
 				PRODUCT_NAME = SwiftySnippets;
 				SDKROOT = watchos;
@@ -1358,7 +1579,11 @@
 				INFOPLIST_FILE = "Sources/SupportingFiles/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.SwiftySnippets-iOS";
 				PRODUCT_NAME = SwiftySnippets;
 				SKIP_INSTALL = YES;
@@ -1382,7 +1607,11 @@
 				INFOPLIST_FILE = "Sources/SupportingFiles/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "marq.SwiftySnippets-iOS";
 				PRODUCT_NAME = SwiftySnippets;
 				SKIP_INSTALL = YES;

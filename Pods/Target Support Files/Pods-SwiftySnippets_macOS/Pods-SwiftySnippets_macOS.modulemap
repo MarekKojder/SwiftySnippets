@@ -1,5 +1,5 @@
 framework module Pods_SwiftySnippets_macOS {
-  umbrella header "Pods-SwiftySnippets macOS-umbrella.h"
+  umbrella header "Pods-SwiftySnippets_macOS-umbrella.h"
 
   export *
   module * { export * }

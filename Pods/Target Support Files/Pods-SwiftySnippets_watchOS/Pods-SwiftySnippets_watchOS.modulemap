@@ -1,5 +1,5 @@
 framework module Pods_SwiftySnippets_watchOS {
-  umbrella header "Pods-SwiftySnippets watchOS-umbrella.h"
+  umbrella header "Pods-SwiftySnippets_watchOS-umbrella.h"
 
   export *
   module * { export * }

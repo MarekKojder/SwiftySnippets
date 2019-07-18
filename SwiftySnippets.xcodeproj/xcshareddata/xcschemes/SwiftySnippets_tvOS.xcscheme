@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EAA0E1A71E5D9B6B00A7AA3A"
+               BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
                BuildableName = "SwiftySnippets.framework"
-               BlueprintName = "SwiftySnippets watchOS"
+               BlueprintName = "SwiftySnippets_tvOS"
                ReferencedContainer = "container:SwiftySnippets.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAA0E1A71E5D9B6B00A7AA3A"
+            BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
             BuildableName = "SwiftySnippets.framework"
-            BlueprintName = "SwiftySnippets watchOS"
+            BlueprintName = "SwiftySnippets_tvOS"
             ReferencedContainer = "container:SwiftySnippets.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
@@ -44,8 +44,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA93FE2E1E5EC42A00A82381"
-               BuildableName = "UnitTests iOS.xctest"
-               BlueprintName = "UnitTests iOS"
+               BuildableName = "UnitTests_iOS.xctest"
+               BlueprintName = "UnitTests_iOS"
                ReferencedContainer = "container:SwiftySnippets.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -54,8 +54,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA93FEA21E5EC87500A82381"
-               BuildableName = "FunctionalTests iOS.xctest"
-               BlueprintName = "FunctionalTests iOS"
+               BuildableName = "FunctionalTests_iOS.xctest"
+               BlueprintName = "FunctionalTests_iOS"
                ReferencedContainer = "container:SwiftySnippets.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAA0E1A71E5D9B6B00A7AA3A"
+            BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
             BuildableName = "SwiftySnippets.framework"
-            BlueprintName = "SwiftySnippets watchOS"
+            BlueprintName = "SwiftySnippets_tvOS"
             ReferencedContainer = "container:SwiftySnippets.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -81,13 +81,13 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "NO">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAA0E1A71E5D9B6B00A7AA3A"
+            BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
             BuildableName = "SwiftySnippets.framework"
-            BlueprintName = "SwiftySnippets watchOS"
+            BlueprintName = "SwiftySnippets_tvOS"
             ReferencedContainer = "container:SwiftySnippets.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -103,9 +103,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAA0E1A71E5D9B6B00A7AA3A"
+            BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
             BuildableName = "SwiftySnippets.framework"
-            BlueprintName = "SwiftySnippets watchOS"
+            BlueprintName = "SwiftySnippets_tvOS"
             ReferencedContainer = "container:SwiftySnippets.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

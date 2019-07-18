@@ -2,7 +2,7 @@ use_frameworks!
 
 # Cocoapods for multiple targets
 def sharedPods
-  
+#  pod 'RxSwift', '~> 5.0'
 end
 
 def sharedPodsIOS
@@ -23,36 +23,36 @@ target 'Example' do
     sharedPodsIOS
 end
 
-target 'SwiftySnippets iOS' do
+target 'SwiftySnippets_iOS' do
     sharedPodsIOS
 end
 
-target 'SwiftySnippets tvOS' do
+target 'SwiftySnippets_tvOS' do
     platform :tvos, '9.0'
     sharedPods
 end
 
-target 'SwiftySnippets macOS' do
+target 'SwiftySnippets_macOS' do
     sharedPodsOSX
 end
 
-target 'SwiftySnippets watchOS' do
+target 'SwiftySnippets_watchOS' do
     platform :watchos, '3.0'
     sharedPods
 end
 
-target 'UnitTests iOS' do
+target 'UnitTests_iOS' do
     sharedPodsIOS
 end
 
-target 'UnitTests OSX' do
+target 'UnitTests_OSX' do
     sharedPodsOSX
 end
 
-target 'FunctionalTests iOS' do
+target 'FunctionalTests_iOS' do
     sharedPodsIOS
 end
 
-target 'FunctionalTests OSX' do
+target 'FunctionalTests_OSX' do
     sharedPodsOSX
 end

@@ -122,9 +122,11 @@ public extension UIView {
 }
 
 //MARK: - Corners and border
+@IBDesignable
 public extension UIView {
 
     ///The width of the layer’s border. Animatable.
+    @IBInspectable
     var borderWidth: CGFloat {
         get {
             return layer.borderWidth
@@ -135,6 +137,7 @@ public extension UIView {
     }
 
     ///The color of the layer’s border. Animatable.
+    @IBInspectable
     var borderColor: UIColor? {
         get {
             guard let color = layer.borderColor else {
@@ -148,12 +151,12 @@ public extension UIView {
     }
 
     ///The radius to use when drawing rounded corners for the layer’s background. Animatable.
+    @IBInspectable
     var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
         }
         set {
-            layer.masksToBounds = newValue > 0
             layer.cornerRadius = newValue
         }
     }

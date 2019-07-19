@@ -5,7 +5,8 @@
 //  Created by Marek Kojder on 09.07.2019.
 //
 
-import UIKit
+#if canImport(UITableView)
+import UIKit.UITableView
 
 ///Class introducing `reuseIdentifier` needed for easy to use dequeueing reusable cell.
 open class BaseTableViewCell: UITableViewCell {
@@ -13,6 +14,11 @@ open class BaseTableViewCell: UITableViewCell {
     ///A string identifying the cell object to be reused. By default is equal type name.
     class var reuseIdentifier: String {
         return typeName
+    }
+
+    ///Hides separator of cell by moving it outside of the screen.
+    func hideSeparator() {
+        separatorInset = UIEdgeInsets(top: 0, left: frame.size.width * 2, bottom: 0, right: 0)
     }
 }
 
@@ -87,3 +93,4 @@ public extension UITableView {
         headerView.translatesAutoresizingMaskIntoConstraints = true
     }
 }
+#endif

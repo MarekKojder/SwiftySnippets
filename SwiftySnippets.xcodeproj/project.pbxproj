@@ -60,7 +60,6 @@
 		EA6D8DC622D5968800A2A1EC /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9522D5968800A2A1EC /* UITableViewExtensions.swift */; };
 		EA6D8DC922D5968800A2A1EC /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */; };
 		EA6D8DCA22D5968800A2A1EC /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */; };
-		EA6D8DCD22D5968800A2A1EC /* BaseTableViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9722D5968800A2A1EC /* BaseTableViewCellExtensions.swift */; };
 		EA6D8DD122D5968800A2A1EC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */; };
 		EA6D8DD222D5968800A2A1EC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */; };
 		EA7A1C2922E1AB2B00107864 /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A1C2822E1AB2B00107864 /* UINavigationControllerExtensions.swift */; };
@@ -68,6 +67,17 @@
 		EA7A1C2D22E1AC0200107864 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A1C2C22E1AC0200107864 /* UIColorExtensions.swift */; };
 		EA7A1C2E22E1AC0200107864 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A1C2C22E1AC0200107864 /* UIColorExtensions.swift */; };
 		EA7A1C2F22E1AC0200107864 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A1C2C22E1AC0200107864 /* UIColorExtensions.swift */; };
+		EA7A1C3222E1E3D600107864 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */; };
+		EA7A1C3322E1E3D600107864 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */; };
+		EA7A1C3422E1E70500107864 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9522D5968800A2A1EC /* UITableViewExtensions.swift */; };
+		EA7A1C3522E1E70600107864 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9522D5968800A2A1EC /* UITableViewExtensions.swift */; };
+		EA7A1C3622E1E79300107864 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */; };
+		EA7A1C3722E1E79400107864 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */; };
+		EA7A1C3822E1E7BA00107864 /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A1C2822E1AB2B00107864 /* UINavigationControllerExtensions.swift */; };
+		EA7A1C3922E1E7BA00107864 /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A1C2822E1AB2B00107864 /* UINavigationControllerExtensions.swift */; };
+		EA7A1C3A22E1E7EF00107864 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7A1C2C22E1AC0200107864 /* UIColorExtensions.swift */; };
+		EA7A1C3B22E1E81F00107864 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8822D5968800A2A1EC /* CGFloatExtensions.swift */; };
+		EA7A1C3C22E1E9DC00107864 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D8D8F22D5968800A2A1EC /* StringExtensions.swift */; };
 		EA8A7FDD1FB18ACB00088163 /* SwiftySnippets.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A7F341FB18ACB00088163 /* SwiftySnippets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA8A7FDE1FB18ACB00088163 /* SwiftySnippets.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A7F341FB18ACB00088163 /* SwiftySnippets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA8A7FDF1FB18ACB00088163 /* SwiftySnippets.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A7F341FB18ACB00088163 /* SwiftySnippets.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -149,7 +159,6 @@
 		EA6D8D9222D5968800A2A1EC /* NSObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
 		EA6D8D9522D5968800A2A1EC /* UITableViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
 		EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
-		EA6D8D9722D5968800A2A1EC /* BaseTableViewCellExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCellExtensions.swift; sourceTree = "<group>"; };
 		EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		EA7A1C2822E1AB2B00107864 /* UINavigationControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtensions.swift; sourceTree = "<group>"; };
 		EA7A1C2C22E1AC0200107864 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
@@ -361,7 +370,6 @@
 			children = (
 				EA6D8D9822D5968800A2A1EC /* UIViewExtensions.swift */,
 				EA6D8D9522D5968800A2A1EC /* UITableViewExtensions.swift */,
-				EA6D8D9722D5968800A2A1EC /* BaseTableViewCellExtensions.swift */,
 				EA6D8D9622D5968800A2A1EC /* UICollectionViewExtensions.swift */,
 				EA7A1C2822E1AB2B00107864 /* UINavigationControllerExtensions.swift */,
 			);
@@ -977,12 +985,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7A1C3222E1E3D600107864 /* UIViewExtensions.swift in Sources */,
 				EA6D8DBB22D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */,
 				EA6D8DBF22D5968800A2A1EC /* DateExtensions.swift in Sources */,
+				EA7A1C3422E1E70500107864 /* UITableViewExtensions.swift in Sources */,
 				EA6D8DC322D5968800A2A1EC /* NSObjectExtensions.swift in Sources */,
 				EA6D8D9F22D5968800A2A1EC /* CGFloatExtensions.swift in Sources */,
 				EA6D8DAF22D5968800A2A1EC /* URLExtensions.swift in Sources */,
+				EA7A1C3822E1E7BA00107864 /* UINavigationControllerExtensions.swift in Sources */,
+				EA7A1C3C22E1E9DC00107864 /* StringExtensions.swift in Sources */,
 				EA6D8DA322D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */,
+				EA7A1C3A22E1E7EF00107864 /* UIColorExtensions.swift in Sources */,
+				EA7A1C3622E1E79300107864 /* UICollectionViewExtensions.swift in Sources */,
 				EA6D8DAB22D5968800A2A1EC /* CodableExtensions.swift in Sources */,
 				EA6D8DB322D5968800A2A1EC /* FailableDecodable.swift in Sources */,
 				EA6D8DA722D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */,
@@ -1019,14 +1033,19 @@
 			files = (
 				EA6D8DBC22D5968800A2A1EC /* DispatchQueueExtensions.swift in Sources */,
 				EA6D8DC022D5968800A2A1EC /* DateExtensions.swift in Sources */,
+				EA7A1C3B22E1E81F00107864 /* CGFloatExtensions.swift in Sources */,
 				EA6D8DC422D5968800A2A1EC /* NSObjectExtensions.swift in Sources */,
+				EA7A1C3522E1E70600107864 /* UITableViewExtensions.swift in Sources */,
 				EA7A1C2F22E1AC0200107864 /* UIColorExtensions.swift in Sources */,
 				EA6D8DB822D5968800A2A1EC /* StringExtensions.swift in Sources */,
 				EA6D8DB022D5968800A2A1EC /* URLExtensions.swift in Sources */,
 				EA6D8DA422D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */,
 				EA6D8DAC22D5968800A2A1EC /* CodableExtensions.swift in Sources */,
 				EA6D8DB422D5968800A2A1EC /* FailableDecodable.swift in Sources */,
+				EA7A1C3922E1E7BA00107864 /* UINavigationControllerExtensions.swift in Sources */,
+				EA7A1C3722E1E79400107864 /* UICollectionViewExtensions.swift in Sources */,
 				EA6D8DA822D5968800A2A1EC /* FloatingPointExtensions.swift in Sources */,
+				EA7A1C3322E1E3D600107864 /* UIViewExtensions.swift in Sources */,
 				EA6D8D9C22D5968800A2A1EC /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1044,7 +1063,6 @@
 				EA6D8DB522D5968800A2A1EC /* StringExtensions.swift in Sources */,
 				EA6D8D9D22D5968800A2A1EC /* CGFloatExtensions.swift in Sources */,
 				EA7A1C2D22E1AC0200107864 /* UIColorExtensions.swift in Sources */,
-				EA6D8DCD22D5968800A2A1EC /* BaseTableViewCellExtensions.swift in Sources */,
 				EA6D8DAD22D5968800A2A1EC /* URLExtensions.swift in Sources */,
 				EA6D8DA122D5968800A2A1EC /* TimeIntervalExtensions.swift in Sources */,
 				EA6D8DC922D5968800A2A1EC /* UICollectionViewExtensions.swift in Sources */,

@@ -160,5 +160,16 @@ public extension UIView {
             layer.cornerRadius = newValue
         }
     }
+
+    ///A Boolean indicating whether sublayers are clipped to the layer’s bounds. Animatable.
+    @IBInspectable
+    var masksToBounds: Bool {
+        set {
+            layer.masksToBounds = newValue
+        }
+        get {
+            return layer.masksToBounds
+        }
+    }
 }
 

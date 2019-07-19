@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
-               BuildableName = "SwiftySnippets.framework"
-               BlueprintName = "SwiftySnippets tvOS"
+               BlueprintIdentifier = "EA93FEA21E5EC87500A82381"
+               BuildableName = "FunctionalTests_iOS.xctest"
+               BlueprintName = "FunctionalTests_iOS"
                ReferencedContainer = "container:SwiftySnippets.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,46 +26,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      codeCoverageEnabled = "YES"
-      onlyGenerateCoverageForSpecifiedTargets = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <CodeCoverageTargets>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
-            BuildableName = "SwiftySnippets.framework"
-            BlueprintName = "SwiftySnippets tvOS"
-            ReferencedContainer = "container:SwiftySnippets.xcodeproj">
-         </BuildableReference>
-      </CodeCoverageTargets>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA93FE2E1E5EC42A00A82381"
-               BuildableName = "UnitTests iOS.xctest"
-               BlueprintName = "UnitTests iOS"
-               ReferencedContainer = "container:SwiftySnippets.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA93FEA21E5EC87500A82381"
-               BuildableName = "FunctionalTests iOS.xctest"
-               BlueprintName = "FunctionalTests iOS"
-               ReferencedContainer = "container:SwiftySnippets.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
-            BuildableName = "SwiftySnippets.framework"
-            BlueprintName = "SwiftySnippets tvOS"
+            BlueprintIdentifier = "EA93FEA21E5EC87500A82381"
+            BuildableName = "FunctionalTests_iOS.xctest"
+            BlueprintName = "FunctionalTests_iOS"
             ReferencedContainer = "container:SwiftySnippets.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -81,13 +50,13 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "NO">
+      allowLocationSimulation = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
-            BuildableName = "SwiftySnippets.framework"
-            BlueprintName = "SwiftySnippets tvOS"
+            BlueprintIdentifier = "EA93FEA21E5EC87500A82381"
+            BuildableName = "FunctionalTests_iOS.xctest"
+            BlueprintName = "FunctionalTests_iOS"
             ReferencedContainer = "container:SwiftySnippets.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -103,9 +72,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EAA0E19A1E5D9B0700A7AA3A"
-            BuildableName = "SwiftySnippets.framework"
-            BlueprintName = "SwiftySnippets tvOS"
+            BlueprintIdentifier = "EA93FEA21E5EC87500A82381"
+            BuildableName = "FunctionalTests_iOS.xctest"
+            BlueprintName = "FunctionalTests_iOS"
             ReferencedContainer = "container:SwiftySnippets.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

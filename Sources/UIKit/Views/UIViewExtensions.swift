@@ -5,7 +5,8 @@
 //  Created by Marek Kojder on 09.07.2019.
 //
 
-import UIKit
+#if canImport(UIView)
+import UIKit.UIView
 
 //MARK: - Loading
 public extension UIView {
@@ -172,4 +173,4 @@ public extension UIView {
         }
     }
 }
-
+#endif

@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwiftySnippets"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Useful snippets written in Swift."
   s.description  = "SwiftySnippets is a set of ready to use, very useful extensions written in Swift."
   s.homepage     = "https://github.com/MarekKojder/SwiftySnippets"
@@ -49,9 +49,9 @@ Pod::Spec.new do |s|
   #
 
   s.ios.deployment_target = "9.0"
-  # s.osx.deployment_target = "10.10"
-  # s.tvos.deployment_target = "9.0"
-  # s.watchos.deployment_target = "3.0"
+  s.osx.deployment_target = "10.10"
+  s.tvos.deployment_target = "9.0"
+  s.watchos.deployment_target = "3.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,15 +80,15 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework      = "Foundation"
+  s.framework = "Foundation"
 
   s.ios.framework  = "QuartzCore"
   s.tvos.framework = "QuartzCore"
   s.osx.framework  = "QuartzCore"
 
-  s.ios.framework  = "UIKit"
-  s.tvos.framework = "UIKit"
-  s.osx.framework  = "AppKit"
+  s.ios.framework     = "UIKit"
+  s.tvos.framework    = "UIKit"
+  s.watchos.framework = "UIKit"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

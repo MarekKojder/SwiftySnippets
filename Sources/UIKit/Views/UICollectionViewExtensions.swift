@@ -5,7 +5,8 @@
 //  Created by Marek Kojder on 09.07.2019.
 //
 
-import UIKit
+#if canImport(UICollectionView)
+import UIKit.UICollectionView
 
 ///Class introducing `reuseIdentifier` needed for easy to use dequeueing reusable cell.
 open class BaseCollectionViewCell: UICollectionViewCell {
@@ -50,3 +51,4 @@ public extension UICollectionView {
         return dequeueReusableCell(withReuseIdentifier: type.reuseIdentifier, for: indexPath) as? T
     }
 }
+#endif

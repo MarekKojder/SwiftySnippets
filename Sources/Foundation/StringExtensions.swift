@@ -5,7 +5,10 @@
 //  Created by Marek Kojder on 09/07/2019.
 //
 
+import Foundation
+#if canImport(UIKit)
 import UIKit
+#endif
 
 public extension String {
 
@@ -14,6 +17,7 @@ public extension String {
         return NSAttributedString(string: self)
     }
 
+    #if canImport(UIKit)
     ///Creates attributed string from HTML formatted string.
     func attributedStringFromHtml() throws -> NSAttributedString  {
         guard let data = data(using: .unicode, allowLossyConversion: true) else {
@@ -24,6 +28,7 @@ public extension String {
                                                 .characterEncoding: String.Encoding.unicode.rawValue],
                                       documentAttributes: nil)
     }
+    #endif
 }
 
 public extension String {
@@ -48,6 +53,7 @@ public extension String {
         self = self.trimmingWhitespaces
     }
 
+    #if canImport(UIKit)
     /**
      Returns the bounding box size the receiver occupies when drawn with the given font.
 
@@ -84,30 +90,10 @@ public extension String {
         attributedAddress.addAttributes(boldAttributes, range: range)
         return attributedAddress
     }
+    #endif
 }
 
 public extension NSAttributedString {
-
-    ///Removes strikethrough from the text.
-    var withoutStrikethrough: NSAttributedString {
-        let mutable = NSMutableAttributedString(attributedString: self)
-        mutable.removeAttribute(.strikethroughStyle, range: NSMakeRange(0, mutable.length))
-        mutable.removeAttribute(.strikethroughColor, range: NSMakeRange(0, mutable.length))
-        return mutable
-    }
-
-    /**
-     Returns strikethrough text.
-
-     - Parameters:
-       - color: Color which should bu used for striking through
-     */
-    func strikethrough(with color: UIColor = .gray) -> NSAttributedString {
-        let mutable = NSMutableAttributedString(attributedString: self)
-        mutable.addAttribute(.strikethroughStyle, value: NSNumber(value: NSUnderlineStyle.single.rawValue), range: NSMakeRange(0, mutable.length))
-        mutable.addAttribute(.strikethroughColor, value: color, range: NSMakeRange(0, mutable.length))
-        return mutable
-    }
 
     /**
      Appends given text to the current string.
@@ -120,6 +106,28 @@ public extension NSAttributedString {
     func appending(_ string: NSAttributedString) -> NSAttributedString {
         let mutable = NSMutableAttributedString(attributedString: self)
         mutable.append(string)
+        return mutable
+    }
+
+    #if canImport(UIKit)
+    ///Removes strikethrough from the text.
+    var withoutStrikethrough: NSAttributedString {
+        let mutable = NSMutableAttributedString(attributedString: self)
+        mutable.removeAttribute(.strikethroughStyle, range: NSMakeRange(0, mutable.length))
+        mutable.removeAttribute(.strikethroughColor, range: NSMakeRange(0, mutable.length))
+        return mutable
+    }
+
+    /**
+     Returns strikethrough text.
+
+     - Parameters:
+     - color: Color which should bu used for striking through
+     */
+    func strikethrough(with color: UIColor = .gray) -> NSAttributedString {
+        let mutable = NSMutableAttributedString(attributedString: self)
+        mutable.addAttribute(.strikethroughStyle, value: NSNumber(value: NSUnderlineStyle.single.rawValue), range: NSMakeRange(0, mutable.length))
+        mutable.addAttribute(.strikethroughColor, value: color, range: NSMakeRange(0, mutable.length))
         return mutable
     }
 
@@ -150,4 +158,5 @@ public extension NSAttributedString {
         }
         return newString
     }
+    #endif
 }

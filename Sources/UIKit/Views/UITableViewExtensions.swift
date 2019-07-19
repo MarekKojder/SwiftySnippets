@@ -59,4 +59,31 @@ public extension UITableView {
     func dequeueReusable<T: BaseTableViewCell>(cell type: T.Type) -> T? {
         return dequeueReusableCell(withIdentifier: type.reuseIdentifier) as? T
     }
+
+    ///Workarount for not working autolayout in UITableview header.
+    func layoutTableViewHeader() {
+        guard let headerView = tableHeaderView else {
+            return
+        }
+        headerView.translatesAutoresizingMaskIntoConstraints = false
+
+        let headerWidth = headerView.bounds.size.width
+        let temporaryWidthConstraint = NSLayoutConstraint(item: headerView, attribute: .width, relatedBy: .equal,
+                                                          toItem: nil, attribute: .notAnAttribute,
+                                                          multiplier: 1, constant: headerWidth)
+        headerView.addConstraint(temporaryWidthConstraint)
+        headerView.setNeedsLayout()
+        headerView.layoutIfNeeded()
+
+        let headerHeight = headerView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize).height
+        var frame = headerView.frame
+
+        frame.size.height = headerHeight
+        headerView.frame = frame
+
+        tableHeaderView = headerView
+
+        headerView.removeConstraint(temporaryWidthConstraint)
+        headerView.translatesAutoresizingMaskIntoConstraints = true
+    }
 }

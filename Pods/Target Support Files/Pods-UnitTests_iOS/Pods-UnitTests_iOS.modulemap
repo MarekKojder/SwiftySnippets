@@ -1,5 +1,5 @@
 framework module Pods_UnitTests_iOS {
-  umbrella header "Pods-UnitTests iOS-umbrella.h"
+  umbrella header "Pods-UnitTests_iOS-umbrella.h"
 
   export *
   module * { export * }

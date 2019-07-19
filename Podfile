@@ -2,7 +2,7 @@ use_frameworks!
 
 # Cocoapods for multiple targets
 def sharedPods
-#  pod 'RxSwift', '~> 5.0'
+
 end
 
 def sharedPodsIOS

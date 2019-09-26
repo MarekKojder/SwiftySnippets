@@ -5,7 +5,7 @@
 //  Created by Marek Kojder on 19/07/2019.
 //
 
-#if canImport(UIColor)
+//#if canImport(UIColor)
 import UIKit.UIColor
 
 public extension UIColor {
@@ -38,4 +38,4 @@ public extension UIColor {
         self.init(red: (rgba >> 24) & 0xff, green: (rgba >> 16) & 0xff, blue: (rgba >> 8) & 0xff, a: rgba & 0xff)
     }
 }
-#endif
+//#endif

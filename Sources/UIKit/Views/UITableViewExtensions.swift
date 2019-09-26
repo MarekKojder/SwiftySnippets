@@ -5,7 +5,7 @@
 //  Created by Marek Kojder on 09.07.2019.
 //
 
-#if canImport(UITableView)
+//#if canImport(UITableView)
 import UIKit.UITableView
 
 ///Class introducing `reuseIdentifier` needed for easy to use dequeueing reusable cell.
@@ -93,4 +93,4 @@ public extension UITableView {
         headerView.translatesAutoresizingMaskIntoConstraints = true
     }
 }
-#endif
+//#endif

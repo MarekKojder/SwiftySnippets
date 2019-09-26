@@ -6,9 +6,9 @@
 //
 
 import Foundation
-#if canImport(UIKit)
+//#if canImport(UIKit)
 import UIKit
-#endif
+//#endif
 
 public extension String {
 
@@ -17,7 +17,7 @@ public extension String {
         return NSAttributedString(string: self)
     }
 
-    #if canImport(UIKit)
+//    #if canImport(UIKit)
     ///Creates attributed string from HTML formatted string.
     func attributedStringFromHtml() throws -> NSAttributedString  {
         guard let data = data(using: .unicode, allowLossyConversion: true) else {
@@ -28,7 +28,7 @@ public extension String {
                                                 .characterEncoding: String.Encoding.unicode.rawValue],
                                       documentAttributes: nil)
     }
-    #endif
+//    #endif
 }
 
 public extension String {
@@ -53,7 +53,7 @@ public extension String {
         self = self.trimmingWhitespaces
     }
 
-    #if canImport(UIKit)
+//    #if canImport(UIKit)
     /**
      Returns the bounding box size the receiver occupies when drawn with the given font.
 
@@ -90,7 +90,7 @@ public extension String {
         attributedAddress.addAttributes(boldAttributes, range: range)
         return attributedAddress
     }
-    #endif
+//    #endif
 }
 
 public extension NSAttributedString {
@@ -109,7 +109,7 @@ public extension NSAttributedString {
         return mutable
     }
 
-    #if canImport(UIKit)
+//    #if canImport(UIKit)
     ///Removes strikethrough from the text.
     var withoutStrikethrough: NSAttributedString {
         let mutable = NSMutableAttributedString(attributedString: self)
@@ -158,5 +158,5 @@ public extension NSAttributedString {
         }
         return newString
     }
-    #endif
+//    #endif
 }

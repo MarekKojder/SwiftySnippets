@@ -7,6 +7,7 @@
 
 import Foundation
 
+/*
 public extension KeyedDecodingContainer {
 
     /**
@@ -60,3 +61,4 @@ private struct FailableData<T: Decodable>: Decodable {
         }
     }
 }
+*/

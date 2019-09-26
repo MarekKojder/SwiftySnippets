@@ -5,7 +5,7 @@
 //  Created by Marek Kojder on 09.07.2019.
 //
 
-#if canImport(QuartzCore)
+//#if canImport(QuartzCore)
 import QuartzCore
 
 public extension CGFloat {
@@ -20,4 +20,4 @@ public extension CGFloat {
         return 180.0 * self / .pi
     }
 }
-#endif
+//#endif

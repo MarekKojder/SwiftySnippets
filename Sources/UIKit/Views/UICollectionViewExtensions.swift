@@ -5,7 +5,7 @@
 //  Created by Marek Kojder on 09.07.2019.
 //
 
-#if canImport(UICollectionView)
+//#if canImport(UICollectionView)
 import UIKit.UICollectionView
 
 ///Class introducing `reuseIdentifier` needed for easy to use dequeueing reusable cell.
@@ -51,4 +51,4 @@ public extension UICollectionView {
         return dequeueReusableCell(withReuseIdentifier: type.reuseIdentifier, for: indexPath) as? T
     }
 }
-#endif
+//#endif

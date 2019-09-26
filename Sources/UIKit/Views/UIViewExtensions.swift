@@ -5,7 +5,7 @@
 //  Created by Marek Kojder on 09.07.2019.
 //
 
-#if canImport(UIView)
+//#if canImport(UIView)
 import UIKit.UIView
 
 //MARK: - Loading
@@ -173,4 +173,4 @@ public extension UIView {
         }
     }
 }
-#endif
+//#endif

@@ -5,7 +5,7 @@
 //  Created by Marek Kojder on 19/07/2019.
 //
 
-#if canImport(UINavigationController)
+//#if canImport(UINavigationController)
 import UIKit.UINavigationController
 
 public extension UINavigationController {
@@ -44,4 +44,4 @@ public extension UINavigationController {
         navigationBar.shadowImage = UIImage()
     }
 }
-#endif
+//#endif
